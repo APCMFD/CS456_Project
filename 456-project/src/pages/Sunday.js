@@ -5,8 +5,8 @@ import HomePageTitle from '../images/HomePageTitle.png';
 const Sunday = () => {
     return (
         <>
-            <div class="row">
-                <div class="column1">
+            <div className="row">
+                <div className="column1">
                     <img src={HomePageTitle} alt="Home Title" />
                 </div>
             </div>
