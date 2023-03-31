@@ -1,7 +1,7 @@
 import React from 'react';
 import useSound from 'use-sound';
 
-const Sound = ({ audioClip , source, alternate}) => {
+const SoundOne = ({ audioClip, source, alternate}) => {
     
     const [play, { stop }] = useSound(audioClip);
   
@@ -10,4 +10,4 @@ const Sound = ({ audioClip , source, alternate}) => {
     );
 }
 
-export default Sound;
+export default SoundOne;
