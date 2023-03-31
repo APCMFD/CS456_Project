@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import ResourceTitle from '../panels/ResourceTitle.js';
 import SoundOne from '../panels/SoundOne.js';
 import ReturnHome from '../audio/ReturnHome.m4a';
 import Link1 from '../audio/Link1.m4a';
 import Link2 from '../audio/Link2.m4a';
 import Link3 from '../audio/Link3.m4a';
 import Link4 from '../audio/Link4.m4a';
+import ResourcesTop from '../audio/ResourcesTop.m4a';
+import AdditionalResourcesTitle from '../images/AdditionalResourcesTitle.png';
 import BackArrow from '../images/BackArrow.png';
 import Link1Panel from '../images/Link1Panel.png';
 import Link2Panel from '../images/Link2Panel.png';
@@ -18,7 +19,9 @@ function Resources() {
         <>
             <div className="row">
                 <div className="column1">
-                    <ResourceTitle />
+                    <Link to="/">
+                        <SoundOne audioClip={ResourcesTop} source={AdditionalResourcesTitle} alternate="Additional Resources" />
+                    </Link>
                 </div>
             </div>
             <div className="row">
