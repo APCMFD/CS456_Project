@@ -19,7 +19,9 @@ function Resources() {
         <>
             <div className="row">
                 <div className="column1">
-                    <SoundOne audioClip={ResourcesTop} source={AdditionalResourcesTitle} alternate="Additional Resources" />
+                    <Link to="/">
+                        <SoundOne audioClip={ResourcesTop} source={AdditionalResourcesTitle} alternate="Additional Resources" />
+                    </Link>
                 </div>
             </div>
             <div className="row">
