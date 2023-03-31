@@ -10,6 +10,9 @@ import BackArrow from '../images/BackArrow.png';
 import ReturnHome from '../audio/ReturnHome.m4a';
 import Sound from '../panels/Sound.js';
 
+import Link1 from '../audio/Link1.m4a';
+import Link1Panel from '../images/Link1Panel.png';
+
 function Resources() {
     return (
         <>
@@ -20,9 +23,9 @@ function Resources() {
             </div>
             <div className="row">
                 <div className="column3">
-                    <a href="https://ridekc.org/rider-guide/navigator" target="_blank" rel="noreferrer">
-                        <LinkOne />
-                    </a>
+                    <Link to="https://ridekc.org/rider-guide/navigator" target="_blank" rel="noreferrer">
+                        <Sound audioClip={Link1} source={Link1Panel} alternate="RideKC Navigator" />
+                    </Link>
                 </div>
                 <div className="column3">
                     <a href="https://ridekc.org/routes" target="_blank" rel="noreferrer">
@@ -43,7 +46,7 @@ function Resources() {
                 </div>
                 <div className="column2">
                     <Link to="/">
-                        <Sound audioClip={ReturnHome} source='./images/BackArrow.png' alternate="Back" />
+                        <Sound audioClip={ReturnHome} source={BackArrow} alternate="Back" />
                     </Link>
                 </div>
             </div>

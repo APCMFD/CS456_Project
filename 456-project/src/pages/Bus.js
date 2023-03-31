@@ -15,23 +15,23 @@ const Bus = () => {
                 </div>
             </div>
 
-            <div className='Content-Panel'>
-                    <div className='Content-Item'>
+            <div className='row'>
+                    <div className='column2'>
                         <Link to="/tutorial">
                             <img className='Panel-Item-Image' src={ TutorialPanelImage } alt='Tutorial panel' />
                         </Link>
                     </div>
-                    <div className='Content-Item'>
+                    <div className='column2'>
                         <Link to="/resources">
                             <img className='Panel-Item-Image' src={ AdditionalInfoImage } alt='Additional Information panel'/>
                         </Link>
                     </div>
-                    <div className='Content-Item'>
+                    <div className='column2'>
                         <Link to="/bussched">
                             <img className='Panel-Item-Image' src={ BusScheduleImage } alt='Bus Schedule panel'/>
                         </Link>
                     </div>
-                    <div className='Content-Item'>
+                    <div className='column2'>
                         <Link to="/">
                             <img className='Panel-Item-Image' src={ HomePageImage } alt='Return to Home panel with back arrow'/>
                         </Link>
