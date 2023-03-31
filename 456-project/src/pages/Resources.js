@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import ResourceTitle from '../panels/ResourceTitle.js';
-import Sound from '../panels/Sound.js';
+import SoundOne from '../panels/SoundOne.js';
 import ReturnHome from '../audio/ReturnHome.m4a';
 import Link1 from '../audio/Link1.m4a';
 import Link2 from '../audio/Link2.m4a';
