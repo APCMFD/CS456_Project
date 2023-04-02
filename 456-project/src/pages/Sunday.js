@@ -36,12 +36,10 @@ import Hover3 from '../audio/Hover3.m4a';
 import Hover4 from '../audio/Hover4.m4a';
 import Hover5 from '../audio/Hover5.m4a';
 import Hover6 from '../audio/Hover6.m4a';
-import Hover7 from '../audio/Hover7.m4a';
 import Hover8 from '../audio/Hover8.m4a';
 import Hover9 from '../audio/Hover9.m4a';
 import Hover10 from '../audio/Hover10.m4a';
 import Hover11 from '../audio/Hover11.m4a';
-import Hover12 from '../audio/Hover12.m4a';
 import Hover13 from '../audio/Hover13.m4a';
 import Hover14 from '../audio/Hover14.m4a';
 import Hover15 from '../audio/Hover15.m4a';
@@ -71,7 +69,7 @@ const Sunday = () => {
                     <SoundTwo audioClip={Hover6} audioClip2={Route18Su} source={Route18} alternate="Route 18" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover7} audioClip2={Route21Su} source={Route21} alternate="Route 21" />
+                    <SoundTwo audioClip={Route21Su} audioClip2={Route21Su} source={Route21} alternate="Route 21" />
                 </div>
                 <div className='column5'>
                     <SoundTwo audioClip={Hover8} audioClip2={Route23Su} source={Route23} alternate="Route 23" />
@@ -86,7 +84,7 @@ const Sunday = () => {
                     <SoundTwo audioClip={Hover11} audioClip2={Route27Su} source={Route27} alternate="Route 27" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover12} audioClip2={Route28Su} source={Route28} alternate="Route 28" />
+                    <SoundTwo audioClip={Route28Su} audioClip2={Route28Su} source={Route28} alternate="Route 28" />
                 </div>
             </div>
 
