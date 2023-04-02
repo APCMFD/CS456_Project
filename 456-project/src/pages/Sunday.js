@@ -18,19 +18,19 @@ import BackArrow from '../images/3x4BackArrow.png';
 import SoundOne from '../panels/SoundOne.js';
 import SoundTwo from '../panels/SoundTwo.js';
 import SundayTop from '../audio/SundayTop.m4a';
-import Route9W from '../audio/Route9W.m4a';
-import Route11W from '../audio/Route11W.m4a';
-import Route12W from '../audio/Route12W.m4a';
-import Route18W from '../audio/Route18W.m4a';
-import Route21W from '../audio/Route21W.m4a';
-import Route23W from '../audio/Route23W.m4a';
-import Route24W from '../audio/Route24W.m4a';
-import Route25W from '../audio/Route25W.m4a';
-import Route27W from '../audio/Route27W.m4a';
-import Route28W from '../audio/Route28W.m4a';
-import MainMAXW from '../audio/MainMAXW.m4a';
-import TroostMAXW from '../audio/TroostMAXW.m4a';
-import ProspectMAXW from '../audio/ProspectMAXW.m4a';
+import Route9Su from '../audio/Route9Su.m4a';
+import Route11Su from '../audio/Route11Su.m4a';
+import Route12Su from '../audio/Route12Su.m4a';
+import Route18Su from '../audio/Route18Su.m4a';
+import Route21Su from '../audio/Route21Su.m4a';
+import Route23Su from '../audio/Route23Su.m4a';
+import Route24Su from '../audio/Route24Su.m4a';
+import Route25Su from '../audio/Route25Su.m4a';
+import Route27Su from '../audio/Route27Su.m4a';
+import Route28Su from '../audio/Route28Su.m4a';
+import MainMAXSu from '../audio/MainMAXSu.m4a';
+import TroostMAXSu from '../audio/TroostMAXSu.m4a';
+import ProspectMAXSu from '../audio/ProspectMAXSu.m4a';
 import ReturnToSched from '../audio/ReturnToSched.m4a';
 import Hover3 from '../audio/Hover3.m4a';
 import Hover4 from '../audio/Hover4.m4a';
@@ -59,46 +59,46 @@ const Sunday = () => {
 
             <div className='row'>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover3} audioClip2={Route9W} source={Route9} alternate="Route 9" />
+                    <SoundTwo audioClip={Hover3} audioClip2={Route9Su} source={Route9} alternate="Route 9" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover4} audioClip2={Route11W} source={Route11} alternate="Route 11" />
+                    <SoundTwo audioClip={Hover4} audioClip2={Route11Su} source={Route11} alternate="Route 11" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover5} audioClip2={Route12W} source={Route12} alternate="Route 12" />
+                    <SoundTwo audioClip={Hover5} audioClip2={Route12Su} source={Route12} alternate="Route 12" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover6} audioClip2={Route18W} source={Route18} alternate="Route 18" />
+                    <SoundTwo audioClip={Hover6} audioClip2={Route18Su} source={Route18} alternate="Route 18" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover7} audioClip2={Route21W} source={Route21} alternate="Route 21" />
+                    <SoundTwo audioClip={Hover7} audioClip2={Route21Su} source={Route21} alternate="Route 21" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover8} audioClip2={Route23W} source={Route23} alternate="Route 23" />
+                    <SoundTwo audioClip={Hover8} audioClip2={Route23Su} source={Route23} alternate="Route 23" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover9} audioClip2={Route24W} source={Route24} alternate="Route 24" />
+                    <SoundTwo audioClip={Hover9} audioClip2={Route24Su} source={Route24} alternate="Route 24" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover10} audioClip2={Route25W} source={Route25} alternate="Route 25" />
+                    <SoundTwo audioClip={Hover10} audioClip2={Route25Su} source={Route25} alternate="Route 25" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover11} audioClip2={Route27W} source={Route27} alternate="Route 27" />
+                    <SoundTwo audioClip={Hover11} audioClip2={Route27Su} source={Route27} alternate="Route 27" />
                 </div>
                 <div className='column5'>
-                    <SoundTwo audioClip={Hover12} audioClip2={Route28W} source={Route28} alternate="Route 28" />
+                    <SoundTwo audioClip={Hover12} audioClip2={Route28Su} source={Route28} alternate="Route 28" />
                 </div>
             </div>
 
             <div className='row'>
                 <div className='column4'>
-                    <SoundTwo audioClip={Hover13} audioClip2={MainMAXW} source={MainMax} alternate="Main MAX" />
+                    <SoundTwo audioClip={Hover13} audioClip2={MainMAXSu} source={MainMax} alternate="Main MAX" />
                 </div>
                 <div className='column4'>
-                    <SoundTwo audioClip={Hover14} audioClip2={TroostMAXW} source={TroostMax} alternate="Troost MAX" />
+                    <SoundTwo audioClip={Hover14} audioClip2={TroostMAXSu} source={TroostMax} alternate="Troost MAX" />
                 </div>
                 <div className='column4'>
-                    <SoundTwo audioClip={Hover15} audioClip2={ProspectMAXW} source={ProspectMax} alternate="Prospect MAX" />
+                    <SoundTwo audioClip={Hover15} audioClip2={ProspectMAXSu} source={ProspectMax} alternate="Prospect MAX" />
                 </div>
                 <div className='column4'>
                     <Link to="/busSchedules">
